@@ -1,17 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Button } from 'reactstrap';
+import Header from './components/Header';
+import Loginform from './components/Loginform';
 
-function App() {
-  const todos = ["Go to maket", "buy food", "make dinner"];
-  // const todoList = todos.map((item) => <li>{item}</li>);
-  const renderList = () =>{
-    return todos.map((item)=> <li>{item}</li>);
-  }
-  return (
+class App extends Component {
+  render(){
+    return (
     <div className="App">
-     <ul>{renderList()}</ul>
+     <Header />
+     <Loginform />
     </div>
+ 
   );
+  }
+  
 }
 
 export default App;
