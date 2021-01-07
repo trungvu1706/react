@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import { Button, FormGroup, Label, Input } from "reactstrap";
 
 class Loginform extends Component {
   render() {
