@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
-import Header from './components/Header';
-import Loginform from './components/Loginform';
+import React, { Component } from "react";
+import TrafficLight from "./components/TrafficLight";
 
 class App extends Component {
-  render(){
+  render() {
     return (
-    <div className="App">
-     <Header />
-     <Loginform />
-    </div>
- 
-  );
+      <div className="App">
+        <TrafficLight />
+      </div>
+    );
   }
-  
 }
 
 export default App;
