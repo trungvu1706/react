@@ -32,7 +32,7 @@ class TrafficLight extends Component {
 
   render() {
     const currentColor = this.state.currentColor;
-    console.log("rendering...", this);
+    console.log("rendering...", currentColor);
     return (
       <div className="TrafficLight">
         <div
