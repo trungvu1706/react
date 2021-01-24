@@ -1,0 +1,23 @@
+.count {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.add-btn .sub-btn {
+  padding: 1px 20px;
+}
+
+.add-btn {
+  margin: 10px;
+}
+
+.sub-btn {
+  margin: 10px;
+}
+
+.count span {
+  font-size: 20px;
+  margin: 0;
+}
